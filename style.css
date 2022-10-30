@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+@font-face {
+    font-family: arab;
+    src: url(font.ttf);
+}
+
+body {
+	margin: 0;
+	/* background-image: url("https://cdn.discordapp.com/attachments/866147714243887148/1022815200912621599/DV.gif"); */
+  background-color: white;
+  background-repeat: no-repeat;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
