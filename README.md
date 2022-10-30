@@ -12,6 +12,7 @@ Here is a jQuery Example using `$.POST`
 ```js
 async function getpfp(id, token){
 	var avatar = $.post(`https://discord-profile-picture-api.herokuapp.com/api/getpfp/?id=${id}&token=${token}`));
+	//var avatar will hold the AVATAR LINK!
 }
 ```
 In the Link on `id=USER-ID` you place in the target user id & for the `token=YOUR-BOT-TOKEN` you place the bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications)
